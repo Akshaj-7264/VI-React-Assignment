@@ -12,40 +12,38 @@ import {
 } from './api/mockApi';
 
 function App() {
-  const [products, setProducts] = useState([]);
+  const [allProducts, setAllProducts] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   const [filters, setFilters] = useState({});
   const [sortConfig, setSortConfig] = useState({ key: '', direction: 'asc' });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [filteredData, setFilteredData] = useState([]);
-
-  const loadData = async () => {
-    setLoading(true);
-    setError('');
-    try {
-      const data = await getProducts();
-      setProducts(data);
-    } catch (err) {
-      setError('Failed to load products.');
-    } finally {
-      setLoading(false);
-    }
-  };
 
   useEffect(() => {
+    const loadData = async () => {
+      setLoading(true);
+      try {
+        const data = await getProducts();
+        setAllProducts(data);
+      } catch (err) {
+        setError('Failed to load products.');
+      } finally {
+        setLoading(false);
+      }
+    };
     loadData();
   }, []);
 
   useEffect(() => {
-    let data = [...products];
-    if (filters.brand) data = data.filter(p => p.brand === filters.brand);
-    if (filters.category) data = data.filter(p => p.category === filters.category);
-    if (filters.price) data = data.filter(p => p.price >= +filters.price);
-    if (filters.rating) data = data.filter(p => p.rating >= +filters.rating);
+    let temp = [...allProducts];
+    if (filters.brand) temp = temp.filter(p => p.brand === filters.brand);
+    if (filters.category) temp = temp.filter(p => p.category === filters.category);
+    if (filters.price) temp = temp.filter(p => p.price >= +filters.price);
+    if (filters.rating) temp = temp.filter(p => p.rating >= +filters.rating);
 
     if (sortConfig.key) {
       const { key, direction } = sortConfig;
-      data.sort((a, b) => {
+      temp.sort((a, b) => {
         if (key === 'rating' || key === 'price') {
           return direction === 'asc' ? a[key] - b[key] : b[key] - a[key];
         } else {
@@ -58,13 +56,14 @@ function App() {
       });
     }
 
-    setFilteredData(data);
-  }, [filters, products, sortConfig]);
+    setFilteredData(temp);
+  }, [filters, sortConfig, allProducts]);
 
   const handleRowUpdate = async (updatedRow) => {
     try {
       await updateProduct(updatedRow);
-      loadData();
+      const data = await getProducts();
+      setAllProducts(data);
     } catch (err) {
       console.error(err);
     }
@@ -73,7 +72,8 @@ function App() {
   const handleDelete = async (id) => {
     try {
       await deleteProduct(id);
-      loadData();
+      const data = await getProducts();
+      setAllProducts(data);
     } catch (err) {
       console.error(err);
     }
@@ -86,14 +86,16 @@ function App() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div className="app" style={{ padding: '2rem' }}>
       <h2>Product Dashboard</h2>
+
       {loading && <p>Loading...</p>}
       {error && <p style={{ color: 'red' }}>{error}</p>}
+
       {!loading && !error && (
         <>
           <Filters
-            data={filteredData.length ? filteredData : products}
+            data={allProducts}
             filters={filters}
             onFilterChange={setFilters}
             onReset={() => setFilters({})}
