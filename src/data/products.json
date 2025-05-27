@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14 Pro",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": 1746,
+      "rating": 1.6,
+      "thumbnail": "https://via.placeholder.com/150?text=iPhone+14+Pro"
+    },
+    {
+      "id": 2,
+      "title": "Galaxy S22 Ultra",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 623,
+      "rating": 2.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Galaxy+S22+Ultra"
+    },
+    {
+      "id": 3,
+      "title": "Pixel 7 Pro",
+      "brand": "Google",
+      "category": "smartphones",
+      "price": 2547,
+      "rating": 0.4,
+      "thumbnail": "https://via.placeholder.com/150?text=Pixel+7+Pro"
+    },
+    {
+      "id": 4,
+      "title": "MacBook Pro M2",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1653,
+      "rating": 3.3,
+      "thumbnail": "https://via.placeholder.com/150?text=MacBook+Pro+M2"
+    },
+    {
+      "id": 5,
+      "title": "Dell XPS 15",
+      "brand": "Dell",
+      "category": "laptops",
+      "price": 1695,
+      "rating": 1.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Dell+XPS+15"
+    },
+    {
+      "id": 6,
+      "title": "HP Spectre x360",
+      "brand": "HP",
+      "category": "laptops",
+      "price": 1033,
+      "rating": 4.2,
+      "thumbnail": "https://via.placeholder.com/150?text=HP+Spectre+x360"
+    },
+    {
+      "id": 7,
+      "title": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "headphones",
+      "price": 2975,
+      "rating": 3.2,
+      "thumbnail": "https://via.placeholder.com/150?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 8,
+      "title": "AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "price": 2831,
+      "rating": 1.4,
+      "thumbnail": "https://via.placeholder.com/150?text=AirPods+Pro+2"
+    },
+    {
+      "id": 9,
+      "title": "Lenovo ThinkPad X1",
+      "brand": "Lenovo",
+      "category": "laptops",
+      "price": 1941,
+      "rating": 2.1,
+      "thumbnail": "https://via.placeholder.com/150?text=Lenovo+ThinkPad+X1"
+    },
+    {
+      "id": 10,
+      "title": "iPad Pro 12.9",
+      "brand": "Apple",
+      "category": "tablets",
+      "price": 563,
+      "rating": 4.8,
+      "thumbnail": "https://via.placeholder.com/150?text=iPad+Pro+12.9"
+    },
+    {
+      "id": 11,
+      "title": "Galaxy Tab S8+",
+      "brand": "Samsung",
+      "category": "tablets",
+      "price": 2558,
+      "rating": 4.1,
+      "thumbnail": "https://via.placeholder.com/150?text=Galaxy+Tab+S8+"
+    },
+    {
+      "id": 12,
+      "title": "Asus ROG Zephyrus",
+      "brand": "Asus",
+      "category": "laptops",
+      "price": 2550,
+      "rating": 4.7,
+      "thumbnail": "https://via.placeholder.com/150?text=Asus+ROG+Zephyrus"
+    },
+    {
+      "id": 13,
+      "title": "Surface Laptop 5",
+      "brand": "Microsoft",
+      "category": "laptops",
+      "price": 238,
+      "rating": 2.2,
+      "thumbnail": "https://via.placeholder.com/150?text=Surface+Laptop+5"
+    },
+    {
+      "id": 14,
+      "title": "OnePlus 11",
+      "brand": "OnePlus",
+      "category": "smartphones",
+      "price": 1959,
+      "rating": 2.5,
+      "thumbnail": "https://via.placeholder.com/150?text=OnePlus+11"
+    },
+    {
+      "id": 15,
+      "title": "Realme GT Neo 3",
+      "brand": "Realme",
+      "category": "smartphones",
+      "price": 635,
+      "rating": 4.7,
+      "thumbnail": "https://via.placeholder.com/150?text=Realme+GT+Neo+3"
+    },
+    {
+      "id": 16,
+      "title": "Sony LinkBuds S",
+      "brand": "Sony",
+      "category": "headphones",
+      "price": 2028,
+      "rating": 1.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Sony+LinkBuds+S"
+    },
+    {
+      "id": 17,
+      "title": "Logitech MX Master 3",
+      "brand": "Logitech",
+      "category": "accessories",
+      "price": 906,
+      "rating": 0.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Logitech+MX+Master+3"
+    },
+    {
+      "id": 18,
+      "title": "Canon EOS R10",
+      "brand": "Canon",
+      "category": "cameras",
+      "price": 644,
+      "rating": 0.8,
+      "thumbnail": "https://via.placeholder.com/150?text=Canon+EOS+R10"
+    },
+    {
+      "id": 19,
+      "title": "Nikon Z30",
+      "brand": "Nikon",
+      "category": "cameras",
+      "price": 2959,
+      "rating": 4.5,
+      "thumbnail": "https://via.placeholder.com/150?text=Nikon+Z30"
+    },
+    {
+      "id": 20,
+      "title": "Beats Studio 3",
+      "brand": "Beats",
+      "category": "headphones",
+      "price": 1168,
+      "rating": 3.8,
+      "thumbnail": "https://via.placeholder.com/150?text=Beats+Studio+3"
+    },
+    {
+      "id": 21,
+      "title": "iPhone 14 Pro",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": 2599,
+      "rating": 4.1,
+      "thumbnail": "https://via.placeholder.com/150?text=iPhone+14+Pro"
+    },
+    {
+      "id": 22,
+      "title": "Galaxy S22 Ultra",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 2953,
+      "rating": 0.5,
+      "thumbnail": "https://via.placeholder.com/150?text=Galaxy+S22+Ultra"
+    },
+    {
+      "id": 23,
+      "title": "Pixel 7 Pro",
+      "brand": "Google",
+      "category": "smartphones",
+      "price": 1949,
+      "rating": 0.4,
+      "thumbnail": "https://via.placeholder.com/150?text=Pixel+7+Pro"
+    },
+    {
+      "id": 24,
+      "title": "MacBook Pro M2",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1069,
+      "rating": 4.0,
+      "thumbnail": "https://via.placeholder.com/150?text=MacBook+Pro+M2"
+    },
+    {
+      "id": 25,
+      "title": "Dell XPS 15",
+      "brand": "Dell",
+      "category": "laptops",
+      "price": 200,
+      "rating": 0.7,
+      "thumbnail": "https://via.placeholder.com/150?text=Dell+XPS+15"
+    },
+    {
+      "id": 26,
+      "title": "HP Spectre x360",
+      "brand": "HP",
+      "category": "laptops",
+      "price": 1090,
+      "rating": 2.3,
+      "thumbnail": "https://via.placeholder.com/150?text=HP+Spectre+x360"
+    },
+    {
+      "id": 27,
+      "title": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "headphones",
+      "price": 2808,
+      "rating": 3.8,
+      "thumbnail": "https://via.placeholder.com/150?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 28,
+      "title": "AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "price": 1131,
+      "rating": 3.6,
+      "thumbnail": "https://via.placeholder.com/150?text=AirPods+Pro+2"
+    },
+    {
+      "id": 29,
+      "title": "Lenovo ThinkPad X1",
+      "brand": "Lenovo",
+      "category": "laptops",
+      "price": 2343,
+      "rating": 0.8,
+      "thumbnail": "https://via.placeholder.com/150?text=Lenovo+ThinkPad+X1"
+    },
+    {
+      "id": 30,
+      "title": "iPad Pro 12.9",
+      "brand": "Apple",
+      "category": "tablets",
+      "price": 376,
+      "rating": 4.2,
+      "thumbnail": "https://via.placeholder.com/150?text=iPad+Pro+12.9"
+    },
+    {
+      "id": 31,
+      "title": "Galaxy Tab S8+",
+      "brand": "Samsung",
+      "category": "tablets",
+      "price": 1553,
+      "rating": 0.3,
+      "thumbnail": "https://via.placeholder.com/150?text=Galaxy+Tab+S8+"
+    },
+    {
+      "id": 32,
+      "title": "Asus ROG Zephyrus",
+      "brand": "Asus",
+      "category": "laptops",
+      "price": 2053,
+      "rating": 2.6,
+      "thumbnail": "https://via.placeholder.com/150?text=Asus+ROG+Zephyrus"
+    },
+    {
+      "id": 33,
+      "title": "Surface Laptop 5",
+      "brand": "Microsoft",
+      "category": "laptops",
+      "price": 2320,
+      "rating": 3.9,
+      "thumbnail": "https://via.placeholder.com/150?text=Surface+Laptop+5"
+    },
+    {
+      "id": 34,
+      "title": "OnePlus 11",
+      "brand": "OnePlus",
+      "category": "smartphones",
+      "price": 677,
+      "rating": 4.6,
+      "thumbnail": "https://via.placeholder.com/150?text=OnePlus+11"
+    },
+    {
+      "id": 35,
+      "title": "Realme GT Neo 3",
+      "brand": "Realme",
+      "category": "smartphones",
+      "price": 1325,
+      "rating": 4.3,
+      "thumbnail": "https://via.placeholder.com/150?text=Realme+GT+Neo+3"
+    },
+    {
+      "id": 36,
+      "title": "Sony LinkBuds S",
+      "brand": "Sony",
+      "category": "headphones",
+      "price": 1634,
+      "rating": 0.3,
+      "thumbnail": "https://via.placeholder.com/150?text=Sony+LinkBuds+S"
+    },
+    {
+      "id": 37,
+      "title": "Logitech MX Master 3",
+      "brand": "Logitech",
+      "category": "accessories",
+      "price": 883,
+      "rating": 0.7,
+      "thumbnail": "https://via.placeholder.com/150?text=Logitech+MX+Master+3"
+    },
+    {
+      "id": 38,
+      "title": "Canon EOS R10",
+      "brand": "Canon",
+      "category": "cameras",
+      "price": 1728,
+      "rating": 4.6,
+      "thumbnail": "https://via.placeholder.com/150?text=Canon+EOS+R10"
+    },
+    {
+      "id": 39,
+      "title": "Nikon Z30",
+      "brand": "Nikon",
+      "category": "cameras",
+      "price": 1806,
+      "rating": 4.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Nikon+Z30"
+    },
+    {
+      "id": 40,
+      "title": "Beats Studio 3",
+      "brand": "Beats",
+      "category": "headphones",
+      "price": 390,
+      "rating": 1.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Beats+Studio+3"
+    },
+    {
+      "id": 41,
+      "title": "iPhone 14 Pro",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": 2281,
+      "rating": 0.2,
+      "thumbnail": "https://via.placeholder.com/150?text=iPhone+14+Pro"
+    },
+    {
+      "id": 42,
+      "title": "Galaxy S22 Ultra",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "price": 2745,
+      "rating": 1.6,
+      "thumbnail": "https://via.placeholder.com/150?text=Galaxy+S22+Ultra"
+    },
+    {
+      "id": 43,
+      "title": "Pixel 7 Pro",
+      "brand": "Google",
+      "category": "smartphones",
+      "price": 300,
+      "rating": 3.6,
+      "thumbnail": "https://via.placeholder.com/150?text=Pixel+7+Pro"
+    },
+    {
+      "id": 44,
+      "title": "MacBook Pro M2",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1777,
+      "rating": 1.2,
+      "thumbnail": "https://via.placeholder.com/150?text=MacBook+Pro+M2"
+    },
+    {
+      "id": 45,
+      "title": "Dell XPS 15",
+      "brand": "Dell",
+      "category": "laptops",
+      "price": 444,
+      "rating": 1.0,
+      "thumbnail": "https://via.placeholder.com/150?text=Dell+XPS+15"
+    },
+    {
+      "id": 46,
+      "title": "HP Spectre x360",
+      "brand": "HP",
+      "category": "laptops",
+      "price": 2377,
+      "rating": 4.5,
+      "thumbnail": "https://via.placeholder.com/150?text=HP+Spectre+x360"
+    },
+    {
+      "id": 47,
+      "title": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "headphones",
+      "price": 2286,
+      "rating": 2.7,
+      "thumbnail": "https://via.placeholder.com/150?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 48,
+      "title": "AirPods Pro 2",
+      "brand": "Apple",
+      "category": "headphones",
+      "price": 1499,
+      "rating": 1.7,
+      "thumbnail": "https://via.placeholder.com/150?text=AirPods+Pro+2"
+    },
+    {
+      "id": 49,
+      "title": "Lenovo ThinkPad X1",
+      "brand": "Lenovo",
+      "category": "laptops",
+      "price": 833,
+      "rating": 0.4,
+      "thumbnail": "https://via.placeholder.com/150?text=Lenovo+ThinkPad+X1"
+    },
+    {
+      "id": 50,
+      "title": "iPad Pro 12.9",
+      "brand": "Apple",
+      "category": "tablets",
+      "price": 1105,
+      "rating": 0.7,
+      "thumbnail": "https://via.placeholder.com/150?text=iPad+Pro+12.9"
+    }
+  ]
+}
